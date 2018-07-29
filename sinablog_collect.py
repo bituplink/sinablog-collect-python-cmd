@@ -13,8 +13,6 @@
 import urllib.request
 from bs4 import BeautifulSoup
 
-import re
-import sys
 import os
 import time
 
@@ -23,18 +21,12 @@ import http.client
 http.client.HTTPConnection._http_vsn = 10
 http.client.HTTPConnection._http_vsn_str = 'HTTP/1.0'
 
-# 常量定义
-pattern_blog_list_name = pattern1=u"""<a href="(http:.*?)">博文目录</a>"""
-regex_obj_blog_list_name = re.compile(pattern_blog_list_name)
-
-
 # 根据url读取html界面
 def getHtml(url_str):
     # 读取页面内容
     html_data = urllib.request.urlopen(url_str).read()
     return html_data
 
-#
 def getNowTimeStr():
     # 获取当前时间
     time_now = int(time.time())
@@ -46,7 +38,6 @@ def getNowTimeStr():
     time_str = time.strftime("%Y%m%d_%H%M%S", time_local)
     return time_str
 
-#
 def createDownloadDir():
     timestamp = getNowTimeStr()
     relative_path = "./" + timestamp
