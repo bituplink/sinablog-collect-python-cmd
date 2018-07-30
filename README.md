@@ -18,8 +18,8 @@
 如果觉得程序对你有帮助或者想要支持我,可以小额赞助下
 
 方式一: 支付宝捐助
-![alipay](http://www.bituplink.com/assets/img/alipay.png)
+* ![alipay](http://www.bituplink.com/assets/img/alipay.png)
 
 方式二: 微信捐助
-![wxpay](http://www.bituplink.com/assets/img/wxpay.png)
+* ![wxpay](http://www.bituplink.com/assets/img/wxpay.png)
 
