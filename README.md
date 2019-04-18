@@ -25,4 +25,4 @@
 * ![alipay](http://www.bituplink.com/assets/img/alipay.png)
 
 方式二: 微信捐助
-* ![wxpay](# http://www.bituplink.com/wp-content/uploads/wxpay.png)
+* ![wxpay](http://www.bituplink.com/wp-content/uploads/wxpay.png)
